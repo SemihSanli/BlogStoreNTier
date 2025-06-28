@@ -1,0 +1,17 @@
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\bin\Debug\net9.0\BlogStore.BusinessLayer.deps.json
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\bin\Debug\net9.0\BlogStore.BusinessLayer.dll
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\bin\Debug\net9.0\BlogStore.BusinessLayer.pdb
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\bin\Debug\net9.0\BlogStore.DataAccessLayer.dll
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\bin\Debug\net9.0\BlogStore.EntityLayer.dll
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\bin\Debug\net9.0\BlogStore.DataAccessLayer.pdb
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\bin\Debug\net9.0\BlogStore.EntityLayer.pdb
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\obj\Debug\net9.0\BlogStore.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\obj\Debug\net9.0\BlogStore.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\obj\Debug\net9.0\BlogStore.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\obj\Debug\net9.0\BlogStore.BusinessLayer.AssemblyInfo.cs
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\obj\Debug\net9.0\BlogStore.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\obj\Debug\net9.0\BlogStor.7E5682BA.Up2Date
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\obj\Debug\net9.0\BlogStore.BusinessLayer.dll
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\obj\Debug\net9.0\refint\BlogStore.BusinessLayer.dll
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\obj\Debug\net9.0\BlogStore.BusinessLayer.pdb
+C:\Users\Semih\source\repos\BlogStore\BlogStore.BusinessLayer\obj\Debug\net9.0\ref\BlogStore.BusinessLayer.dll

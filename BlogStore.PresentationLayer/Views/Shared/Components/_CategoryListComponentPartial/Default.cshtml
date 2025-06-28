@@ -1,0 +1,49 @@
+﻿@model BlogStore.PresentationLayer.Models.CategoryWithArticlesViewModel
+
+<div class="row mb-4">
+    <div class="d-flex flex-wrap gap-3 justify-content-center">
+        @foreach (var category in Model.Categories)
+        {
+            <div class="text-center p-2 border rounded" style="min-width: 140px; cursor: pointer;">
+                <a href="?id=@category.CategoryID" class="text-decoration-none">
+                    <strong>@category.CategoryName</strong>
+                </a>
+            </div>
+        }
+    </div>
+</div>
+
+@if (Model.Articles != null && Model.Articles.Any())
+{
+    <div class="section search-result-wrap">
+        <div class="container">
+            <div class="row posts-entry">
+                <div class="col-lg-12">
+                    @foreach (var item in Model.Articles)
+                    {
+                        <div class="blog-entry d-flex blog-entry-search-item mb-4">
+                            <a href="/Article/ArticleDetail/@item.Slug" class="img-link me-4">
+                                <img src="@item.ArticleImageURL" alt="@item.ArticleTitle" class="img-fluid" style="max-width:150px;" />
+                            </a>
+                            <div>
+                                <span class="date">
+                                    @item.CreatedDate.ToString("dd-MMM-yyyy")
+                                    <a href="#">@item.Category.CategoryName</a>
+                                </span>
+                                <h2>
+                                    <a href="/Article/ArticleDetail/@item.Slug">@item.ArticleTitle</a>
+                                </h2>
+                                <p>
+                                    @(item.ArticleDescription.Length > 100 ? item.ArticleDescription.Substring(0, 100) + "..." : item.ArticleDescription)
+                                </p>
+                                <p>
+                                    <a href="/Article/ArticleDetail/@item.Slug" class="btn btn-sm btn-outline-primary">Read More</a>
+                                </p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,115 @@
+﻿@model UserRegisterViewModel
+@{
+    Layout = null;
+}
+
+
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flexy Free Bootstrap Admin Template by WrapPixel</title>
+    <link rel="shortcut icon" type="image/png" href="/flexy-bootstrap-lite-1.0.0/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="/flexy-bootstrap-lite-1.0.0/assets/css/styles.min.css" />
+</head>
+
+<body>
+    <!--  Body Wrapper -->
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+         data-sidebar-position="fixed" data-header-position="fixed">
+        <div class="position-relative overflow-hidden text-bg-light min-vh-100 d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center w-100">
+                <div class="row justify-content-center w-100">
+                    <div class="col-md-8 col-lg-6 col-xxl-3">
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                                    <img src="/flexy-bootstrap-lite-1.0.0/assets/images/logos/logo.svg" alt="">
+                                </a>
+                                <p class="text-center">Your Social Campaigns</p>
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="Name" class="form-label">Ad</label>
+                                        <input type="text" class="form-control" id="Name" asp-for="Name" aria-describedby="textHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Surname" class="form-label">Soyad</label>
+                                        <input type="text" class="form-control" id="Surname" asp-for="Surname" aria-describedby="textHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Email" class="form-label">Mail Adresi</label>
+                                        <input type="email" class="form-control" id="Email" asp-for="Email" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Username" class="form-label">Kullanıcı Adı</label>
+                                        <input type="email" class="form-control" id="Username" asp-for="Username" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="Password" class="form-label">Şifre</label>
+                                        <input type="password" class="form-control" id="Password" asp-for="Password">
+                                    </div>
+                                    <a href="./index.html" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Kayıt Ol</a>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <p class="fs-4 mb-0 fw-bold">Bir Hesabınız Var Mı?</p>
+                                        <a class="text-primary fw-bold ms-2" href="/Login/UserLogin/">Giriş Yap</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/flexy-bootstrap-lite-1.0.0/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="/flexy-bootstrap-lite-1.0.0/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- solar icons -->
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<form method="post">
+<div class ="container">
+    <br /> <br />
+    <label>Adınız</label>
+    <input type="text" asp-for="Name" class="form-control" />
+    <br /> <br />
+    <label>Soyadınız</label>
+    <input type="text" asp-for="Surname" class="form-control" />
+    <br /> <br />
+    <label>Mail Adresiniz</label>
+    <input type="text" asp-for="Email" class="form-control" />
+    <br /> <br />
+    <label>Kullanıcı Adınız</label>
+    <input type="text" asp-for="Username" class="form-control" />
+    <br /> <br />
+    <label>Şifre</label>
+    <input type="text" asp-for="Password" class="form-control" />
+    <button class="btn btn-outline-info">Kayıt Ol</button>
+</div>
+</form>

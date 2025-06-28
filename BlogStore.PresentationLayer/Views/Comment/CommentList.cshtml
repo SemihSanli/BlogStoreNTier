@@ -1,0 +1,28 @@
+﻿@model List<BlogStore.EntityLayer.Entities.Comment>
+@{
+    Layout = null;
+}
+
+<div class="container">
+    <br /> <br />
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Yorum Detayı</th>
+            <th>Yorum Tarihi</th>
+            <th>Sil </th>
+            <th>Güncelle</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CommentID</td>
+                <td>@item.CommentDetail</td>
+                <td>@item.CommentDate</td>
+                <td><a href="/Comment/DeleteComment/@item.CommentID" class="btn btn-outline-danger">Sil</a></td>
+                <td><a href="/Comment/UpdateComment/@item.CommentID" class="btn btn-outline-danger">Güncelle</a></td>
+            </tr>
+        }
+    </table>
+    <a href="/Comment/AddComment/" class="btn btn-outline-danger">Ekle</a>
+</div>

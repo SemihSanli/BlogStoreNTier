@@ -1,0 +1,19 @@
+﻿@model BlogStore.EntityLayer.Entities.Comment
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container">
+    <br /> <br />
+    <form method="post">
+        <input type="hidden" asp-for="CommentID" />
+        <label>Yorum Detayı</label>
+        <input type="text" asp-for="CommentDetail" class="form-control" />
+        <br />
+        <label>Yorum Tarihi</label>
+        <input type="text" asp-for="CommentDate" class="form-control" />
+        <br />
+        <button class="btn btn-outline-info">Kaydet</button>
+    </form>
+</div>

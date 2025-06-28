@@ -1,0 +1,15 @@
+﻿@model List<BlogStore.EntityLayer.Entities.Comment>
+
+@{
+    ViewData["Title"] = "ToxicComment";
+    Layout = "~/Views/AuthorLayout/Index.cshtml";
+}
+
+<h2>Toxic Olarak Algılanan Yorumlar</h2>
+
+<ul>
+    @foreach (var comment in Model)
+    {
+        <li>@comment.CommentDetail</li>
+    }
+</ul>

@@ -1,0 +1,14 @@
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\bin\Debug\net9.0\BlogStore.EntityLayer.deps.json
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\bin\Debug\net9.0\BlogStore.EntityLayer.runtimeconfig.json
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\bin\Debug\net9.0\BlogStore.EntityLayer.dll
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\bin\Debug\net9.0\BlogStore.EntityLayer.pdb
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\BlogStore.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\BlogStore.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\BlogStore.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\BlogStore.EntityLayer.AssemblyInfo.cs
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\BlogStore.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\BlogStore.EntityLayer.dll
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\refint\BlogStore.EntityLayer.dll
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\BlogStore.EntityLayer.pdb
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\BlogStore.EntityLayer.genruntimeconfig.cache
+C:\Users\Semih\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\ref\BlogStore.EntityLayer.dll
